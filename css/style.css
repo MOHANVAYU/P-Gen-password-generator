@@ -141,6 +141,13 @@
         height: 648px;
         width: 524px;
     }
+    #pop-up{
+        top: 20px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
 }
 /*phone*/
 @media screen and (max-width:767px) {
@@ -151,5 +158,12 @@
     #output{
         width: 250px;
         height:200px;
+    }
+    #pop-up{
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
     }
 }
