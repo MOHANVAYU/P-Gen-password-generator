@@ -12,20 +12,28 @@
 <body>
     <div id="window">
         <div class="container">
-            <h1 id="heading">P`Gen</h1><br><br>
+            <div id="popdiv">
+                <img src="./img/P'Gen.svg" alt="Copy Icon" id="svg"/>
+                <h1 id="heading">P`Gen</h1>
+            </div>
+            <br><br>
             <input type="number" id="pwd-size"/><br>
             <button class="btn">Generate</button><br>
             <div id="output">
                 <div id="copy">
-                    <p>password</p>
+                    <p id="p">password</p>
                     <div id="copy-grp">
-                        <img src="./img/Copy.svg" alt="Copy Icon">
-                        <p>Copy</p>
+                        <img src="./img/Copy.svg" alt="Copy Icon"/>
+                        <p id="p-copy">Copy</p>
                     </div>
                 </div>
                 <div id="pwd"></div>
             </div>
         </div>
+    </div>
+    <div id="pop-up">
+        <p>Password Copied!!</p><br>
+        <button id="pop-up-btn">Close</button>
     </div>
 </body>
 </html>
