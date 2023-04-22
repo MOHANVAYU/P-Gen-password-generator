@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P'Gen</title>
+    <title>P`Gen</title>
     <link rel="icon" type="image/png" href="./img/P'Gen.png">
-
+    <link rel="stylesheet" href="./css/style.css"/>
     <script src="./js/index.js" defer></script>
 </head>
 <body>
     <div id="window">
         <div class="container">
-            <h1 id="heading">P'Gen</h1>
-            <input type="number" id="pwd-size"/>
-            <button class="btn">Generate</button>
+            <h1 id="heading">P`Gen</h1><br><br>
+            <input type="number" id="pwd-size"/><br>
+            <button class="btn">Generate</button><br>
             <div id="output">
                 <div id="copy">
-                    <!--copy-->
+                    <p>password</p>
+                    <div id="copy-grp">
+                        <img src="./img/Copy.svg" alt="Copy Icon">
+                        <p>Copy</p>
+                    </div>
                 </div>
-                <p id="pwd"></p>
+                <div id="pwd"></div>
             </div>
         </div>
     </div>

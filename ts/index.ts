@@ -17,7 +17,7 @@ button.addEventListener("click",()=>{
     }else if(size<8){
         output.innerHTML="Size too short for strong password!!";
         flag=false;
-    }else if(size>50){
+    }else if(size>20){
         output.innerHTML="Size too big for password!!";
     }else{
         for(let i=0;i<size;i++){
